@@ -2,8 +2,8 @@
 // return router and publicProcedure
 
 import { initTRPC } from "@trpc/server";
-import z from "zod";
-import Campaign from "../models/Campaign";
+// import z from "zod";
+// import Campaign from "../models/Campaign";
 
 const t = initTRPC.create();
 
