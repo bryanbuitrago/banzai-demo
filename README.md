@@ -22,8 +22,6 @@ This project is a **Marketing Campaign Insights Dashboard** designed to showcase
 
 This project aligns with Banzai’s focus on marketing insights and ROI optimization while demonstrating expertise in their preferred tech stack.
 
-Here's your updated **README** with all formulas formatted in inline code for proper display on GitHub:
-
 ---
 
 ## 📈 Key Marketing Metrics
