@@ -1,18 +1,19 @@
 import { publicProcedure, router } from "./trpc";
+import { z } from "zod";
+import { connectDB } from "../config/db";
+import Campaign from "../models/Campaign";
 
 // Create instance of tRPC router
-// Add proceures (functions) to router
 export const appRouter = router({
-  getTodos: publicProcedure.query(async () => {
-    return [10, 20, 30];
-  }),
+  getCampaign: publicProcedure
+    .input(z.string()) // Expect a string (campaignId) as input
+    .query(async ({ input }) => {
+      await connectDB();
+      const campaign = await Campaign.findById(input);
+      if (!campaign) throw new Error("Campaign not found");
+      return campaign;
+    }),
 });
-// export type definition of API
-export type AppRouter = typeof appRouter;
 
-// export const appRouter = router({
-//   getCampaigns: publicProcedure.query(async () => {
-//     const res = await fetch("http://localhost:3000/api/campaigns");
-//     return res.json();
-//   }),
-// });
+// Export type definition of API
+export type AppRouter = typeof appRouter;
