@@ -22,7 +22,7 @@ This project is a **Marketing Campaign Insights Dashboard** designed to showcase
 
 This project aligns with Banzai’s focus on marketing insights and ROI optimization while demonstrating expertise in their preferred tech stack.
 
-Here's the newly formatted section for your README:
+Here's your updated **README** with all formulas formatted in inline code for proper display on GitHub:
 
 ---
 
@@ -43,15 +43,15 @@ A company runs a LinkedIn ad for a webinar:
 
 **Click-Through Rate (CTR) Formula:**
 
-\[
-CTR = \left( \frac{\text{Clicks}}{\text{Impressions}} \right) \times 100
-\]
+```
+CTR = (Clicks / Impressions) × 100
+```
 
 **CTR Calculation:**
 
-\[
-CTR = \left( \frac{100}{1000} \right) \times 100 = 10\%
-\]
+```
+CTR = (100 / 1000) × 100 = 10%
+```
 
 ---
 
@@ -67,15 +67,15 @@ CTR = \left( \frac{100}{1000} \right) \times 100 = 10\%
 
 **Cost Per Click (CPC) Formula:**
 
-\[
-CPC = \frac{\text{Spend}}{\text{Clicks}}
-\]
+```
+CPC = Spend / Clicks
+```
 
 **CPC Calculation:**
 
-\[
-CPC = \frac{500}{250} = 2.00 \quad \text{(i.e., $2 per click)}
-\]
+```
+CPC = 500 / 250 = $2.00 per click
+```
 
 ---
 
@@ -90,15 +90,15 @@ CPC = \frac{500}{250} = 2.00 \quad \text{(i.e., $2 per click)}
 
 **Conversion Rate (CR) Formula:**
 
-\[
-CR = \left( \frac{\text{Conversions}}{\text{Clicks}} \right) \times 100
-\]
+```
+CR = (Conversions / Clicks) × 100
+```
 
 **CR Calculation:**
 
-\[
-CR = \left( \frac{20}{250} \right) \times 100 = 8\%
-\]
+```
+CR = (20 / 250) × 100 = 8%
+```
 
 ---
 
@@ -108,9 +108,9 @@ Marketers need to evaluate whether their ad spend is generating revenue.
 
 **ROI Formula:**
 
-\[
-ROI = \left( \frac{\text{Revenue from Conversions} - \text{Spend}}{\text{Spend}} \right) \times 100
-\]
+```
+ROI = ((Revenue from Conversions - Spend) / Spend) × 100
+```
 
 **Example:**
 
@@ -119,13 +119,11 @@ ROI = \left( \frac{\text{Revenue from Conversions} - \text{Spend}}{\text{Spend}}
 
 **ROI Calculation:**
 
-\[
-ROI = \left( \frac{2000 - 500}{500} \right) \times 100 = 300\%
-\]
+```
+ROI = ((2000 - 500) / 500) × 100 = 300%
+```
 
 🔹 **A positive ROI (100%+) means the campaign is profitable.**  
 🔹 **A negative ROI means the company is losing money.**
 
 ---
-
-This section provides a clear and structured explanation of essential marketing metrics, making it easy for users to understand their significance and apply them effectively. 🚀
